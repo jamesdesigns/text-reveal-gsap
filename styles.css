@@ -1,0 +1,38 @@
+body {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.hero-title {
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("https://images.unsplash.com/photo-1508923567004-3a6b8004f3d7");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  font-size: 25em;
+  user-select: none;
+}
+
+.hero-cta {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  font-size: 12px;
+  transform: translateX(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 18px 30px;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Arial';
+}
